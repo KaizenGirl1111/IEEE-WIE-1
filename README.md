@@ -1,10 +1,11 @@
-Fonts  
-https://fonts.google.com/specimen/Playfair+Display
-https://fonts.google.com/specimen/Libre+Franklin?query=lib
-https://fonts.google.com/specimen/Open+Sans+Condensed#standard-styles (italic)
+### Fonts  
+- Main : font-family: 'Libre Franklin', sans-serif;
+- Serif : font-family: 'Playfair Display', serif;
+- Open Sans(italics) : font-family: 'Open Sans Condensed', sans-serif;
+- Cursive : font-family: 'Allison', cursive;
 
-https://fonts.google.com/specimen/Allison
-
-Color palette:
-
-https://colorhunt.co/palette/0f044c141e61787a91eeeeee
+### Color palette:
+- Navy Blue : #0F044C
+- Dark Blue : #141E61
+- Grey : #787A91
+- White : #EEEEEE
