@@ -1,39 +1,89 @@
-#intro{
-    height: auto;
-    width: auto;
-    border: 2px;
-    border-style: solid;
-    background-color: #141E61 ;
-    color: whitesmoke;
-    padding: 3% 12%;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Libre+Franklin:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans+Condensed:ital,wght@1,300&family=Playfair+Display:wght@400;500&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #EEEEEE;
 }
-.main{
-    padding: 3% 1%;
-}
-.heading{
-    /* font-size: 25px; */
-    padding-bottom: 1.5%;
-    font-family: 'Libre Franklin', sans-serif;
-}
-p{
-    color: #787A91;
-}
-.quote{
-    margin-top: 2%;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
     background-color: #0F044C;
-    color: wheat;
-    font-family: 'Allison', cursive;
-    text-align: center;
 }
-.d-block{
-    margin: 0px;
-    border-radius: 5%;
+.logo{
+    letter-spacing: 0.3rem;
+    font-size: 1.3rem;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #EEEEEE;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.hamburger div{
+    width: 1.3rem;
+    height: 0.13rem;
+    background-color: white;
+    margin: 0.3rem;
+}
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 50%;
     }
-.text-1{
-    font-size: 2rem;
-    line-height: 1;
-    text-align: center;
 }
-@media (max-width: 1004px) {
-    
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-color: #0F044C;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    .nav-links li{
+        opacity: 0;
+    }
+    .hamburger{
+        display: block;
+    }
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinksFade
+{
+    from{
+        opacity: 0;
+        transform: translateX(3rem);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
