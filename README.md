@@ -1,5 +1,5 @@
 ### Fonts  
-- Main : font-family: 'Libre Franklin', sans-serif;
+- Main : font-family: 'Poppins', sans-serif;
 - Serif : font-family: 'Playfair Display', serif;
 - Open Sans(italics) : font-family: 'Open Sans Condensed', sans-serif;
 - Cursive : font-family: 'Allison', cursive;
