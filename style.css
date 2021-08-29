@@ -31,7 +31,9 @@ nav{
     letter-spacing: 0.1rem;
     font-size: 1rem;
     font-weight: 300;
-    color: #EEEEEE;
+}
+.nav-links a:hover{
+    color: #787A91;
 }
 .hamburger{
     display: none;
