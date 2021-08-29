@@ -1,0 +1,39 @@
+#intro{
+    height: auto;
+    width: auto;
+    border: 2px;
+    border-style: solid;
+    background-color: #141E61 ;
+    color: whitesmoke;
+    padding: 3% 12%;
+}
+.main{
+    padding: 3% 1%;
+}
+.heading{
+    /* font-size: 25px; */
+    padding-bottom: 1.5%;
+    font-family: 'Libre Franklin', sans-serif;
+}
+p{
+    color: #787A91;
+}
+.quote{
+    margin-top: 2%;
+    background-color: #0F044C;
+    color: wheat;
+    font-family: 'Allison', cursive;
+    text-align: center;
+}
+.d-block{
+    margin: 0px;
+    border-radius: 5%;
+    }
+.text-1{
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+}
+@media (max-width: 1004px) {
+    
+}
