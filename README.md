@@ -21,4 +21,4 @@
 - Intro : [Shikha](https://github.com/shikha2961)
 - About : [Chhavi](https://github.com/chhavsingh)
 - Events : [Avni](https://github.com/KaizenGirl1111)
-- Footer : Palak
+- Footer : [Palak](https://github.com/TechGeek3)
