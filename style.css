@@ -69,81 +69,63 @@ body {
 /* Intro */
 
 #intro {
-  height: 100vh;
+  height: auto;
   width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.headingTEXT {
-  font-size: calc(2px + 10vh);
-  line-height: calc(10px + 20vh); 
-  font-weight: 400;
-  text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
-    0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-  color: #fff6a9;
-  text-align: center;
-  animation: blink 12s infinite;
-  -webkit-animation: blink 12s infinite;
+  padding-top: 14%;
+  padding-bottom: 12.5%;
 }
 
-@-webkit-keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
+svg text {
+ 
+ 
+  letter-spacing: 62.5%;
+  stroke: #ffff;
+  font-size: 310%;
+  font-weight: 700;
+  stroke-width: 3;
+ 
+  animation: textAnimate 5s infinite alternate;
+  
+}
+
+@keyframes textAnimate {
+  0% {
+    stroke-dasharray: 0 50%;
+    stroke-dashoffset:  20%;
+    fill:hsl(189, 68%, 75%)
+
   }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
+  
   100% {
-    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
-      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
+    stroke-dasharray: 50% 0;
+    stroke-dashoffstet: -20%;
+    fill: hsla(189, 68%, 75%,0%)
   }
-}
-
-@keyframes blink {
-  20%,
-  24%,
-  55% {
-    color: #111;
-    text-shadow: none;
-  }
-
-  0%,
-  19%,
-  21%,
-  23%,
-  25%,
-  54%,
-  56%,
-  100% {
-    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500,
-      0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
-    color: #fff6a9;
-  }
-}
-.des {
+  
+}.des{
   color: #ffff;
   font-size: 20px;
+  text-align: center;
 }
-.fa {
+.fa{
   padding-right: 1%;
 }
-
 .main {
   padding: 3% 5%;
   text-align: center;
 }
-.headingTEXT {
-  padding-bottom: 1.5%;
+
+.par {
+  color: #787a91;
+}
+
+.quote {
+  margin: 3% 12%;
+  background-color: #0f044c;
+  border-radius: 15px;
+  color: wheat;
+  font-family: "Allison", cursive;
+  text-align: center;
 }
 
 /* ABOUT */
