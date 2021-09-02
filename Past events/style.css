@@ -1,7 +1,7 @@
 body {
   background-color: #082032;
   background-attachment: fixed;
-  background-image: url("Assets/bgwaves.png");
+  background-image: url("..Assets/bgwaves.png");
 }
 @media screen and (min-width: 800px) {
   a {
@@ -57,7 +57,7 @@ body {
 
   .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
-    background-color: #787a91;
+    background-color: rgba(120,120,145,0.5);
     border: #787a91;
   }
 
@@ -84,10 +84,14 @@ body {
   }
 }
 @media screen and (max-width: 800px) {
+  a {
+    color: white;
+    text-decoration: none !important;
+  }
   .event_title {
     text-align: center;
     list-style-type: none;
-    margin: "1vw";
+    margin: "2.5vw";
     padding: 1vw;
     overflow: hidden;
     background-color: #082032;
@@ -98,10 +102,10 @@ body {
     text-align: center;
     padding: 1vw 1vh;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 1.45vw;
   }
   .event_title li:hover {
-    background-color: #787a91;
+    background-color: rgba(120,120,145,0.5);
   }
   .event_list {
     display: block;
@@ -112,9 +116,10 @@ body {
   .flip-card {
     text-align: center;
     background-color: transparent;
-    width: 300px;
+    width: auto;
     height: 300px;
     perspective: 1000px;
+    background-color: rgba(120,120,145,0.5);
   }
 
   .flip-card-inner {
@@ -130,7 +135,7 @@ body {
   .flip-card:hover,
   .flip-card-inner:hover {
     transform: rotateY(180deg);
-    background-color: #787a91;
+    background-color: rgba(120,120,145,0.5);
   }
 
   .flip-card-front,
