@@ -152,8 +152,18 @@ body {
     margin-top: 1rem;
   }
 }
+.about-text {
+  background-color: rgba(8, 32, 50, 0.6);
+  border-radius: 0.5rem;
+  transition: ease-out 0.3s;
+  padding: 2.5rem 0.5rem;
+}
+.about-text:hover {
+  background-color: rgba(255, 107, 107, 0.6);
+}
 .heading {
   font-weight: 400;
+  padding-right: 2rem;
 }
 strong {
   font-weight: 600;
@@ -182,6 +192,7 @@ footer ul {
 }
 footer ul li {
   list-style: none;
+  font-weight: 300;
   font-size: 1rem;
 }
 .row {
@@ -199,7 +210,7 @@ footer ul li {
 .usefulLinks a {
   color: #eeeeee;
   text-decoration: none;
-  line-height: 5rem;
+  line-height: 3rem;
 }
 .Icons a {
   display: inline-block;
@@ -211,4 +222,25 @@ footer ul li {
 }
 .Col li {
   text-align: left;
+}
+.contactDetails li{
+  display: table;
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+span i{
+  width: 2rem;
+}
+.details{
+  display: table-cell;
+}
+.contactDetails a{
+  color: #eeeeee;
+  text-decoration: none;
+}
+.copyright{
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  color: #787A91
 }
