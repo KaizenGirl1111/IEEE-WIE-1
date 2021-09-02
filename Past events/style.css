@@ -1,7 +1,7 @@
 body {
   background-color: #082032;
   background-attachment: fixed;
-  background-image: url("..Assets/bgwaves.png");
+  background-image: url("../Assets/bgwaves.png");
 }
 @media screen and (min-width: 800px) {
   a {
@@ -115,7 +115,6 @@ body {
 
   .flip-card {
     text-align: center;
-    background-color: transparent;
     width: auto;
     height: 300px;
     perspective: 1000px;
