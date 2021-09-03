@@ -76,16 +76,12 @@ body {
 }
 
 svg text {
- 
- 
   letter-spacing: 62.5%;
-  stroke: #ffff;
+  stroke: #FDD2BF;
   font-size: 310%;
   font-weight: 700;
   stroke-width: 3;
- 
   animation: textAnimate 5s infinite alternate;
-  
 }
 
 @keyframes textAnimate {

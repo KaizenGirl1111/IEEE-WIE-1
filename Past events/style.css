@@ -13,7 +13,6 @@ body {
     list-style-type: none;
     margin: 6rem auto;
     overflow: hidden;
-    background-color: #082032;
   }
   .event_title li {
     color: white;
@@ -91,7 +90,7 @@ body {
   .event_title {
     text-align: center;
     list-style-type: none;
-    margin: "2.5vw";
+    margin: 6rem auto;
     padding: 1vw;
     overflow: hidden;
     background-color: #082032;
