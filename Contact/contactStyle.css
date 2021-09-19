@@ -40,7 +40,7 @@ textarea{
 }
 .submit-btn{
     width: 100%;
-    background: #082032; /*FF4C29*/
+    background: #FF4C29; /*FF4C29*/
     height: 3rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -51,7 +51,7 @@ textarea{
     border-radius: 5px;
 }
 .submit-btn:hover{
-    background: #FF4C29;
+    background: #ff4d299d;
 }
 @media screen and (max-width: 900px) {
     .contact-form{
