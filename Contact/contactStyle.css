@@ -57,4 +57,7 @@ textarea{
     .contact-form{
         margin: auto 2rem;
     }
+    .contact-container{
+        width: 90%;
+    }
 }
