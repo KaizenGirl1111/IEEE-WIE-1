@@ -141,7 +141,6 @@ svg text {
 }
 .heading {
   font-weight: 400;
-  padding-right: 2rem;
 }
 strong {
   font-weight: 600;
@@ -223,4 +222,7 @@ span i{
   margin: 0;
   padding: 1rem;
   color: #787A91
+}
+footer a:hover,footer i:hover{
+  color: rgba(255, 107, 107, 0.6);
 }
