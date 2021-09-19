@@ -26,9 +26,7 @@ body {
     margin-left: 3vw;
     padding: 0.2rem 3rem;
   }
-  .event_title li:hover {
-    background-color: #787a91;
-  }
+  
   .event_title a:hover {
     color: white;
   }
