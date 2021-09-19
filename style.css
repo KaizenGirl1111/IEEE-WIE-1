@@ -83,7 +83,18 @@ svg text {
   stroke-width: 3;
   animation: textAnimate 5s infinite alternate;
 }
-
+@media screen and (max-width: 510px){
+svg text{
+  font-size: 190%;
+  letter-spacing: 50%;
+  stroke-width: 2;
+ }
+ #intro{
+   padding-top: 22%;
+ width: auto;
+  
+ }
+}
 @keyframes textAnimate {
   0% {
     stroke-dasharray: 0 50%;
